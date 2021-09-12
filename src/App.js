@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import SideBar from './components/SideBar'
+import About from './components/About'
 
 function App() {
   let [showSideBar, setShowSideBar] = useState(false)
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
         <Navbar setShowSideBar={setShowSideBar} showSideBar={showSideBar}/>
         <Background/>
+        <About />
         <Skills/>
         <Projects/>
         <Contact/>
