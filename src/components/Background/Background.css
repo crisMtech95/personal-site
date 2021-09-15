@@ -69,9 +69,40 @@
     border-left: solid 2px rgba(255, 255, 255, 0.3);
     border-right: solid 2px rgba(255, 255, 255, 0.3);
 }
-.Background__text h2{
+.Background__textTitle{
     margin: 8px;
     font-family: 'Allison', cursive;
     font-size: 50px;
     color: black;
+    display: flex;
+
 }
+.Background__textTitle p {
+    margin: 0px 3px;
+}
+
+.Background__textTitleH:hover {
+    transition: 2s;
+    transform: rotateY(180deg);
+}
+.Background__textTitleE:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+.Background__textTitleL:hover {
+    transition: 3s;
+    transform: rotateY(180deg);
+}
+.Background__textTitleL2:hover {
+    transition: 3s;
+    transform: rotateY(180deg);
+}
+.Background__textTitleO:hover {
+    transition: 2s;
+    transform: rotateY(2000deg);
+}
+/* .Background__textTitleEnd:hover {
+    transition: 3s;
+    transform: rotateY(90deg);
+    transform: rotateX(60deg);
+} */

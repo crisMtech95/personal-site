@@ -9,10 +9,15 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import SideBar from './components/SideBar'
 import About from './components/About'
+import { useSpring, animated } from 'react-spring'
 
 function App() {
   let [showSideBar, setShowSideBar] = useState(false)
 
+  const props = useSpring({
+    from: {width: 0},
+    to: { width: 100}
+  })
 
   return (
     <div className="App">

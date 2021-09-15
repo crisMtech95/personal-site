@@ -29,7 +29,13 @@ export default function Background() {
                 <div className="Background__bgImage"></div>
                         <div className="Background__textDiv">
                             <div className="Background__text">
-                                <h2>Hello!</h2>
+                                <p className="Background__textTitle">
+                                    <p className="Background__textTitleH">H</p>
+                                    <p className="Background__textTitleE">e</p>
+                                    <p className="Background__textTitleL">l</p>
+                                    <p className="Background__textTitleL2">l</p>
+                                    <p className="Background__textTitleO">o</p>
+                                    <p className="Background__textTitleEnd">!</p></p>
                                 <div>{name}</div>
                             </div>
                         </div>
