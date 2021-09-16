@@ -1,4 +1,24 @@
-/* .About__mainContainer {
+.About__mainContainer {
     width: 100%;
     height: 50vh;
-} */
+    display: flex;
+    justify-content: center;
+}
+.About__container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.About__image {
+    background-image: url("../../images/me.jpeg");
+    width: 250px;
+    height: 231px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.About__contentDiv {
+    width: 300px;
+
+}

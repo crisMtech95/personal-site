@@ -9,15 +9,20 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import SideBar from './components/SideBar'
 import About from './components/About'
-import { useSpring, animated } from 'react-spring'
+import { useTransition, animated } from 'react-spring'
+
 
 function App() {
   let [showSideBar, setShowSideBar] = useState(false)
-
-  const props = useSpring({
-    from: {width: 0},
-    to: { width: 100}
+  const transition = useTransition(showSideBar, {
+    from: {opacity: 0},
+    enter: {opacity: 1},
+    leave: {opacity: 0 },
+    // reverse: showSideBar,
+    delay: 150,
+    // config: () => setShowSideBar(!showSideBar)
   })
+
 
   return (
     <div className="App">
@@ -27,9 +32,15 @@ function App() {
         <Skills/>
         <Projects/>
         <Contact/>
-        {showSideBar &&
+        {/* {showSideBar &&
           <SideBar setShowSideBar={setShowSideBar}/>
-        }
+        } */}
+        {transition((styles, item) => item &&
+         <animated.div
+          setShowSideBar={setShowSideBar}
+          className="SideBar__bigCon"
+          style={styles}><SideBar setShowSideBar={setShowSideBar}/></animated.div>
+        )}
         <Footer/>
     </div>
   );
