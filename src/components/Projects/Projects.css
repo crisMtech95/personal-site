@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
     /* height: 80vh; */
 }
 .Projects__bigContainer {
@@ -23,40 +24,49 @@
     font-size: 19px;
     color: grey;
 }
-.Projects__container {
+/* .Projects__container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     flex-wrap: wrap;
 
-}
-.Projects__SingleProjectDiv {
+} */
+/* .Projects__SingleProjectDiv {
     width: 400px;
     margin: 10px;
-    /* border: solid black; */
-}
-/* .Projects__SingleProjectDiv h3 {
-    width: auto;
 } */
+.Projects__SingleProjectDiv h3 {
+    margin: 40px 0;
+}
+.Projects__SingleProjectMain {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+.Projects__contentMain {
+    max-width: 400px;
+}
+
 .Projects__imageDiv {
-    width: 400px;
-    height: 300px;
+    max-width: 400px;
+    min-width: 400px;
+    height: 250px;
     border-radius: 15px;
     overflow: hidden;
     display: flex;
 }
 .allbnbImg {
-    background-image: url("../../images/all-bnb.png");
+    background-image: url("../../images/allbnb2.gif");
     background-size: contain;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .audifyImg {
-    background-image: url("../../images/audify.png");
+    background-image: url("../../images/AudifyGif.gif");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .sportsgramImg {
-    background-image: url("../../images/sportsgram.png");
+    background-image: url("../../images/sportsgram.gif");
     background-size: contain;
     background-repeat: no-repeat;
 }

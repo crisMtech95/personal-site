@@ -3,12 +3,13 @@
     height: 50vh;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 .About__container {
     width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+.About__container h2 {
+    width: 100px;
 }
 .About__image {
     background-image: url("../../images/me.jpeg");
@@ -21,4 +22,7 @@
 .About__contentDiv {
     width: 300px;
 
+}
+.About__content {
+    display: flex;
 }
