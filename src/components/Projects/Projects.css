@@ -40,10 +40,25 @@
 .Projects__SingleProjectMain {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 120px;
 }
+@media screen and (max-width: 850px) {
+    .Projects__SingleProjectMain {
+        flex-direction: column;
+    }
+}
+
 .Projects__contentMain {
     max-width: 400px;
+
+}
+.Projects__contentMain p {
+    color: rgb(109, 105, 105);
+    padding: 15px;
+}
+.Projects__contentMain strong {
+    color: rgb(54, 54, 54);
 }
 
 .Projects__imageDiv {
