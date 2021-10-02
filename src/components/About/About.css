@@ -10,6 +10,11 @@
 }
 .About__container h2 {
     width: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .About__image {
     background-image: url("../../images/me.jpeg");
@@ -21,7 +26,7 @@
 }
 .About__contentDiv {
     width: 300px;
-
+    font-family: 'Kaisei HarunoUmi', serif;
 }
 .About__content {
     display: flex;
