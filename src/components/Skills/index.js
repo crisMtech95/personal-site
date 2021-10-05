@@ -6,9 +6,10 @@ export default function Skills() {
 
     return(
         <div className="Skills__mainContainer" id="skills">
-            <div  className="Skills__container">
+            <div className="Skills__container">
                 <h2>Skills</h2>
-                <div className="Skills__imagesDiv">
+                <div className="Skills__imagesDiv"
+                     data-aos="flip-left">
                     <div className="Skills__image Skills__js"></div>
                     <div className="Skills__image Skills__python"></div>
                     <div className="Skills__image Skills__redux"></div>

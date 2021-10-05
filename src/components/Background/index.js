@@ -12,14 +12,14 @@ export default function Background() {
                 setName(name + description[0])
                 if (description.length >= 2)
                 setDescription(description[1] + description.slice(2))
-            }, 150)
+            }, 110)
         } else if (!name) {
             setTimeout(() => {
                 setName(description[0])
                 if (description) {
                     setDescription(description[1] + description.slice(2))
                 }
-            }, 150)
+            }, 110)
         }
     }, [description])
 

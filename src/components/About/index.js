@@ -8,7 +8,8 @@ export default function About() {
         <div className="About__mainContainer" id="about">
             <div className="About__container">
                 <h2>About</h2>
-                <div className="About__content">
+                <div className="About__content"
+                     data-aos="fade-up">
                     <div className="About__imageDiv">
                         <div className="About__image" />
                     </div>

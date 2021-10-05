@@ -1,6 +1,6 @@
 .About__mainContainer {
     width: 100%;
-    height: 50vh;
+    height: auto;
     display: flex;
     justify-content: center;
     padding-top: 40px;
@@ -31,4 +31,10 @@
 .About__content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 630px) {
+    .About__content {
+        flex-direction: column;
+    }
 }
