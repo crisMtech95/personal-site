@@ -56,6 +56,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
+                    /*
                     <div className="Projects__SingleProjectDiv"
                          data-aos="fade-right">
                         <h3>Stack-OilFlow</h3>
@@ -69,6 +70,7 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
+                    */
                 <div/>
                 </div>
             </div>
