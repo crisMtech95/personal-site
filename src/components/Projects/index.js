@@ -20,7 +20,7 @@ export default function Projects() {
                          data-aos="fade-left">
                         <h3>All-bnb</h3>
                         <div className="Projects__SingleProjectMain">
-                            <a className="Projects__SingleProjectsLinks" href="https://all-bnb.herokuapp.com/" target="_blank">
+                            <a className="Projects__SingleProjectsLinks" href="https://all-bnb.onrender.com" target="_blank">
                                 <div className="Projects__imageDiv allbnbImg"></div>
                             </a>
                             <div className="Projects__contentMain">
@@ -38,7 +38,7 @@ export default function Projects() {
                                 <p> Audify is an application that utilizes the Spotify-API to stream music and uses full-stack technology to allow for playlist creations where a user can store songs they like. Inspired by Spotify, the application uses React and Redux to provide the single-page-application experience and Flask in the backend to interact with the PostgreSQL Database.</p>
                                 <p><strong>-Technologies used:</strong> JavaScript, Html, CSS, React, Redux, Python, Flask, SQLAlchemy, Postgresql. </p>
                             </div>
-                            <a className="Projects__SingleProjectsLinks" href="https://audify-app.herokuapp.com/" target="_blank">
+                            <a className="Projects__SingleProjectsLinks" href="https://audify-5hpo.onrender.com" target="_blank">
                                 <div className="Projects__imageDiv audifyImg"></div>
                             </a>
                         </div>
@@ -47,7 +47,7 @@ export default function Projects() {
                          data-aos="fade-left">
                         <h3>Sportsgram</h3>
                         <div className="Projects__SingleProjectMain">
-                            <a className="Projects__SingleProjectsLinks" href="https://flickstagram.herokuapp.com/" target="_blank">
+                            <a className="Projects__SingleProjectsLinks" href="https://sportsgram.onrender.com" target="_blank">
                                 <div className="Projects__imageDiv sportsgramImg"></div>
                             </a>
                             <div className="Projects__contentMain">
